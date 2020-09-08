@@ -1,0 +1,21 @@
+{
+  "name": "orami-analytics",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch"
+  },
+  "pre-commit": [ "build" ],
+  "author": "Orami",
+  "license": "ISC",
+  "devDependencies": {
+    "pre-commit": "^1.2.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "fingerprintjs2": "^2.1.2"
+  }
+}
